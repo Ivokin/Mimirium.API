@@ -14,12 +14,12 @@ Requests are as followed:
 
 Requests are listed here http://localhost:5000/api/company/home 
 
-GetAllCompanies https://localhost:44364/api/company 
+GetAllCompanies https://localhost:5000/api/company 
 
-GetById https://localhost:44364/api/company/id?id={write id here}
+GetById https://localhost:5000/api/company/id?id={write id here}
 
-GetByName https://localhost:44364/api/company/name?name={write name here}
+GetByName https://localhost:5000/api/company/name?name={write name here}
 
-Put https://localhost:44364/api/company Sample body {"id":" ","name":" ","vat": }
+Put https://localhost:5000/api/company Sample body {"id":" ","name":" ","vat": }
 
-Post https://localhost:44364/api/company Sample body {"id":" ","name":" ","vat": }
+Post https://localhost:5000/api/company Sample body {"id":" ","name":" ","vat": }
