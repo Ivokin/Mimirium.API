@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5d01f08fc36c3145287b1d4c"},"Name":"Ivo Ivanov","Vat":{"$numberInt":"123"}}
+{"_id":{"$oid":"5d01f0b0c36c3145287b1d4d"},"Name":"Mitko","Vat":"321"}
+{"_id":{"$oid":"5d01f0bfc36c3145287b1d4e"},"Name":"Tina","Vat":"333"}
+{"_id":{"$oid":"5d01f6d04ada95298ccf73c3"},"Name":"Pesho","Vat":{"$numberInt":"123"}}
+{"_id":{"$oid":"5d0237bdff81b94b74ba198c"},"Name":"Pesho","Vat":{"$numberInt":"123"}}
+{"_id":{"$oid":"5d0237daff81b94b74ba198d"},"Name":"Tosho","Vat":{"$numberInt":"123"}}

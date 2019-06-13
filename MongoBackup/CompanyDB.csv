@@ -1,0 +1,7 @@
+_id,Name,Vat
+ObjectId("5d01f08fc36c3145287b1d4c"),Ivo Ivanov,123
+ObjectId("5d01f0b0c36c3145287b1d4d"),Mitko,321
+ObjectId("5d01f0bfc36c3145287b1d4e"),Tina,333
+ObjectId("5d01f6d04ada95298ccf73c3"),Pesho,123
+ObjectId("5d0237bdff81b94b74ba198c"),Pesho,123
+ObjectId("5d0237daff81b94b74ba198d"),Tosho,123
