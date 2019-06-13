@@ -14,12 +14,17 @@ Requests are as followed:
 
 Requests are listed here http://localhost:5000/api/company/home 
 
-GetAllCompanies https://localhost:5000/api/company 
+Get https://localhost:5000/api/company 
+Returns all companies.
 
-GetById https://localhost:5000/api/company/id?id={write id here}
+Get https://localhost:5000/api/company/id?id= {write id here}
+Finds company with the given id and returns it.
 
-GetByName https://localhost:5000/api/company/name?name={write name here}
+Get https://localhost:5000/api/company/name?name= {write name here}
+Finds company with the given name and returns it.
 
 Put https://localhost:5000/api/company Sample body {"id":" ","name":" ","vat": }
+Finds company based on the received company object id and updates the Name and Vat with the received company.
 
 Post https://localhost:5000/api/company Sample body {"id":" ","name":" ","vat": }
+Adds the received Company object to the database.
