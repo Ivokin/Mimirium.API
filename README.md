@@ -28,3 +28,15 @@ Finds company based on the received company object id and updates the Name and V
 
 Post https://localhost:5000/api/company Sample body {"id":" ","name":" ","vat": }
 Adds the received Company object to the database.
+
+Scripts used for Postman requests:
+
+pm.test("response is ok", function () {
+    pm.response.to.have.status(200);
+});
+pm.test("response should be okay to process", function () { 
+    pm.response.to.not.be.error; 
+    pm.response.to.have.jsonBody(""); 
+    pm.response.to.not.have.jsonBody("error"); 
+});
+
