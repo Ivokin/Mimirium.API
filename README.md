@@ -14,19 +14,19 @@ Requests are as followed:
 
 Requests are listed here http://localhost:5000/api/company/home 
 
-Get https://localhost:5000/api/company 
+Get http://localhost:5000/api/company 
 Returns all companies.
 
-Get https://localhost:5000/api/company/id?id= {write id here}
+Get http://localhost:5000/api/company/id?id= {write id here}
 Finds company with the given id and returns it.
 
-Get https://localhost:5000/api/company/name?name= {write name here}
+Get http://localhost:5000/api/company/name?name= {write name here}
 Finds company with the given name and returns it.
 
-Put https://localhost:5000/api/company Sample body {"id":" ","name":" ","vat": }
+Put http://localhost:5000/api/company Sample body {"id":" ","name":" ","vat": }
 Finds company based on the received company object id and updates the Name and Vat with the received company.
 
-Post https://localhost:5000/api/company Sample body {"id":" ","name":" ","vat": }
+Post http://localhost:5000/api/company Sample body {"id":" ","name":" ","vat": }
 Adds the received Company object to the database.
 
 Scripts used for Postman requests:
